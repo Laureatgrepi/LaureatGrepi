@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"
+	th:href="@{css/bootstrap.min.css}" />
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta charset="UTF-8">
+
+<head>
+<meta charset="ISO-8859-1">
+<title>Laureat Grepi</title>
+<style>
+body {
+	background: url("../img/img1.png");
+	background-size: cover;
+}
+
+.navbar {
+	width: 100%;
+	background-color: #138471;
+	overflow: auto;
+	border-radius: 20px;
+}
+
+.navbar a {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background-color: #000;
+	border-radius: 15px;
+}
+
+.active {
+	background-color: #4EB500;
+	border-radius: 15px;
+}
+
+.info {
+	width: 75%;
+	height: 300px;
+	background-color: #1F9158;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	border-radius: 10px;
+	 font-family: Arial, Helvetica, sans-serif;
+}
+
+.a {
+	
+	margin-left: 30px;
+}
+
+
+<!--
+@media screen and (max-width: 500px) {
+	.navbar a {
+		float: none;
+		display: block;
+	}
+}
+-->
+</style>
+</head>
+<body>
+
+
+	<div class="container">
+
+		<div class="jumbotron"
+			style="background-color: #90AEFF; border-radius: 30px">
+			<h1>Laureat Grepi index page</h1>
+			<p>This is a web page created by Laureat Grepi. </p>
+			<a href="../other/CVLaureat.docx" download>Lataa </a>
+
+		</div>
+		<div class="navbar">
+			<a href="/index"><i class="fa fa-fw fa-home"></i> Home</a> 
+			<a class="active" href="/CV"><i class="fa fa-address-card-o"></i> CV</a> 
+			<a  href="/contact"><i class="fa fa-fw fa-envelope"></i>Contact</a> 
+				<a href="/index"><i class="fa fa-fw fa-user"></i> Login</a>
+
+		</div >
+		<div class="info">
+		<h1>Curriculum Vitae</h1>
+		<a class ="a" href="../other/CVLaureat.pdf" style="color:black" download>Download my CV in a PDF-file  </a>
+		<br>
+		<br>
+		<a class ="a" href="../other/CVLaureat.docx" style="color:black" download>Download my CV in a Word-file  </a>
+		</div>
+	</div>
+
+
+
+
+
+
+</body>
+</html>
