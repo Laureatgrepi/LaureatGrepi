@@ -1,4 +1,4 @@
-package Laureatgrepi.Laureatgrepi.application;
+package Laureatgrepi.Laureatgrepi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
