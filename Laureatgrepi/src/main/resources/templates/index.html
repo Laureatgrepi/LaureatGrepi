@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
 
 <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" th:href="@{css/bootstrap.min.css}" />
@@ -37,6 +37,16 @@ body {
   background-color: #4EB500;
   border-radius:15px;
 }
+.info {
+	width: 75%;
+	height: 300px;
+	background-color: #1F9158;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	border-radius: 10px;
+	 font-family: Arial, Helvetica, sans-serif;
+}
 
 <!--
 @media screen and (max-width: 500px) {
@@ -61,10 +71,15 @@ body {
 <div class="navbar">
   <a class="active" href="/index"><i class="fa fa-fw fa-home"></i> Home</a> 
   <a href="/CV"><i class="fa fa-address-card-o"></i> CV</a> 
+  <a href="/galleria"><i class="fa fa-address-card-o"></i> Galleria</a> 
   <a href="/contact"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
   <a href="/index"><i class="fa fa-fw fa-user"></i> Login</a>
 
 </div> 
+
+<div class="info">
+		<center>Coming soon</center>
+		
 </div>
 
 

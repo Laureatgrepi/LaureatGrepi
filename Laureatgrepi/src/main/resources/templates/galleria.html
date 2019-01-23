@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"
+	th:href="@{css/bootstrap.min.css}" />
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta charset="UTF-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<head>
+<meta charset="ISO-8859-1">
+<title>Laureat Grepi</title>
+
+
+<style>
+
+
+/*alkaa*/
+body {
+	background: url("../img/img1.png");
+	background-size: cover;
+}
+
+.navbar {
+	width: 100%;
+	background-color: #138471;
+	overflow: auto;
+	border-radius: 20px;
+}
+
+.navbar a {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background-color: #000;
+	border-radius: 15px;
+}
+
+.active {
+	background-color: #4EB500;
+	border-radius: 15px;
+}
+
+.info {
+	width: 85%;
+	height: 100px;
+	background-color: #1F9158;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	border-radius: 10px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 30px;
+	
+}
+
+.img {
+	float: left;
+}
+
+.text {
+	margin-left: 270px;
+	margin-top: 10px;
+}
+
+/*
+@media screen and (max-width: 500px) {
+	.navbar a {
+		float: none;
+		display: block;
+	}
+}*/
+
+
+/*loppuu*/
+</style>
+</head>
+<body>
+
+
+	<div class="container">
+
+		<div class="jumbotron"
+			style="background-color: #90AEFF; border-radius: 30px">
+			<h1>Laureat Grepi Gallery page</h1>
+			<p>This is a web page created by Laureat Grepi. </p>
+			
+
+		</div>
+		<div class="navbar">
+			 <a class="active" href="/index"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="/CV"><i class="fa fa-address-card-o"></i> CV</a> 
+  <a href="/galleria"><i class="fa fa-address-card-o"></i> Galleria</a> 
+  <a href="/contact"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="/index"><i class="fa fa-fw fa-user"></i> Login</a>
+
+		</div>
+		
+</div>
+<div class="info">
+		<center>Here is a few picture of me, my family and some of my closest friends.<br>
+				</center>
+		
+</div>
+<!--Here begins the photos!!-->
+
+
+<img alt="1" src="../img1/galleria1.jpg" style="width:300px; height:300px">
+<img alt="2" src="../img1/galleria2.jpg" style="width:300px; height:300px;transform:rotate(90deg)">
+<img alt="3" src="../img1/galleria3.jpg" style="width:300px; height:300px;transform:rotate(90deg)">
+<img alt="4" src="../img1/galleria4.jpg" style="width:300px; height:300px">
+<img alt="5" src="../img1/galleria5.jpg" style="width:300px; height:300px">
+<img alt="6" src="../img1/galleria6.jpg" style="width:300px; height:300px">
+<img alt="7" src="../img1/galleria7.jpg" style="width:300px; height:300px">
+
+<img alt="9" src="../img1/galleria9.jpg" style="width:300px; height:300px">
+<img alt="10" src="../img1/galleria10.jpg" style="width:300px; height:300px">
+<img alt="11" src="../img1/galleria11.jpg" style="width:300px; height:300px;transform:rotate(270deg)">
+<img alt="12" src="../img1/galleria12.jpg" style="width:300px; height:300px;transform:rotate(270deg)">
+<img alt="13" src="../img1/galleria13.jpg" style="width:300px; height:300px">
+<img alt="14" src="../img1/galleria14.jpg" style="width:300px; height:300px;transform:rotate(90deg)">
+<img alt="15" src="../img1/galleria15.jpg" style="width:300px; height:300px">
+<img alt="16" src="../img1/galleria16.jpg" style="width:300px; height:300px;transform:rotate(90deg)">
+<img alt="17" src="../img1/galleria17.jpg" style="width:300px; height:300px">
+<img alt="18" src="../img1/galleria18.jpg" style="width:300px; height:300px">
+<img alt="19" src="../img1/galleria19.jpg" style="width:300px; height:300px">
+<img alt="29" src="../img1/galleria29.jpg" style="width:300px; height:300px">
+<img alt="30" src="../img1/galleria30.jpg" style="width:300px; height:300px">
+<img alt="20" src="../img1/galleria20.jpg" style="width:300px; height:300px">
+<img alt="21" src="../img1/galleria21.jpg" style="width:300px; height:300px">
+<img alt="22" src="../img1/galleria22.jpg" style="width:300px; height:300px;transform:rotate(90deg)">
+<img alt="23" src="../img1/galleria23.jpg" style="width:300px; height:300px;transform:rotate(90deg)">
+<img alt="24" src="../img1/galleria24.jpg" style="width:300px; height:300px;transform:rotate(90deg)">
+<img alt="25" src="../img1/galleria25.jpg" style="width:300px; height:300px">
+<img alt="26" src="../img1/galleria26.jpg" style="width:300px; height:300px;transform:rotate(90deg)">
+<img alt="27" src="../img1/galleria27.jpg" style="width:300px; height:300px">
+<img alt="28" src="../img1/galleria28.jpg" style="width:300px; height:300px">
+
+
+	<!--Here ends the photos!!-->
+
+
+
+
+
+
+</body>
+</html>

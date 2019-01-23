@@ -18,4 +18,9 @@ public class WebController {
 	public String cv() {
 		return "CV";
 	}
+	@GetMapping("/galleria")
+	public String galleria() {
+		return "galleria";
+	}
 }
+//<img alt="kuva1" src="../img/galleria1.jpg" style="width:300px; height:300px;transform:rotate(90deg)">
